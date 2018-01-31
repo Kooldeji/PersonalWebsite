@@ -210,3 +210,17 @@ input:focus, textarea:focus{
 .icons_list li{
     display: block;
 }
+
+a.nav_icon{
+    float: right;
+}
+
+.nav_icon img{
+    width: 20px;
+    display: block;
+}
+
+.contact_icon{
+    width: 20px;
+    margin-right: 10px;
+}

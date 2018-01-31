@@ -22,8 +22,12 @@ body {
     font-family: Arial;
     padding: 20px;
     background: black;
-    background-image: url("images/image.jpg");
     background-repeat: no-repeat;
+}
+img.main_image{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
 }
 
 .section {
@@ -97,12 +101,6 @@ img.certificate:hover {
 .topnav a:hover {
     background-color: #ddd;
     color: black;
-}
-/* Add a card effect for articles */
-.card {
-     background-color: white;
-     padding: 20px;
-     margin-top: 20px;
 }
 
 .line_sep{
@@ -191,20 +189,12 @@ button {
 
 button:hover{
     box-shadow: 3px 4px 5px rgb(77, 77, 77), 0 0 10px rgb(77, 77, 77);
-    /*background-color: blue;*/
 
 
 }
 input:focus, textarea:focus{
     outline: none;
     border-color: blue;
-}
-
-.social_icons{
-    width: 40px;
-    display: inline; 
-    margin-right: 4px;
-    background-color: blue;
 }
 
 .icons_list li{
@@ -221,6 +211,19 @@ a.nav_icon{
 }
 
 .contact_icon{
-    width: 20px;
+    margin-bottom: 10px;
+}
+
+.contact_icon img{
     margin-right: 10px;
+    width: 30px;
+}
+
+.section img{
+    width: 200px;
+}
+
+.project_images img{
+    width: 150px;
+    margin-right: 5px;
 }
